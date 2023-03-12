@@ -40,7 +40,8 @@ This repository contains the entire XCode project.
 ```
 git clone --recursive https://github.com/WuYiming6526/HARD.git
 ```
-2. Open the XCode project at `Builds/MacOSX/HARD.xcodeproj`
-3. Build the project
+2. Download the model file from https://www.dropbox.com/s/ndd7rrrljjccqfh/morpher.onnx?dl=0. Copy the downloaded file `morpher.onnx` to the root directory.
+3. Open the XCode project at `Builds/MacOSX/HARD.xcodeproj`
+4. Build the project
 
 The built AU plugin file is automatically copied to the AU plugin installation path when the build process is finished.
