@@ -1,5 +1,6 @@
 # HARD
 ![HARD-UI](HARD-UI.png)
+
 **HA**rmony-**R**hythm **D**isentanglement audio remixer plugin.
 + AudioUnit plugin
 + Tested on MacOS with arm64 / x86_64 architecture CPU.
@@ -33,4 +34,13 @@ You can control audio generation by moving the sliders.
 
 ## How to build
 
-This repository contains the entire XCode project. After cloning the repository to your local path, open the XCode project at `Builds/MacOSX/HARD.xcodeproj`. The built AU plugin file is automatically copied to the AU plugin installation path when the build command is executed.
+This repository contains the entire XCode project. 
+
+1. Clone the repository using the following command:
+```
+git clone --recursive https://github.com/WuYiming6526/HARD.git
+```
+2. Open the XCode project at `Builds/MacOSX/HARD.xcodeproj`
+3. Build the project
+
+The built AU plugin file is automatically copied to the AU plugin installation path when the build process is finished.
