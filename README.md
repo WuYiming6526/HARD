@@ -11,7 +11,7 @@ This repository is a submission to the Neural Audio Plugin Competition (https://
 
 ## How to install
 1. Download `HARD-AUplugin.zip` from the releases.
-2. Unzip the zip file and copy `HARD.component` to your AU plugin installation path. Typically the installation path is `/Users/[Your Username]/Library/Audio/Plug-Ins/Components/`.
+2. Unzip the zip file and copy `HARD.component` to your AU plugin installation path. Typically the installation path is `/Users/[Your Username]/Library/Audio/Plug-Ins/Components/` or `/Library/Audio/Plug-Ins/Components/`.
 
 --------
 
@@ -44,4 +44,4 @@ git clone --recursive https://github.com/WuYiming6526/HARD.git
 3. Open the XCode project at `Builds/MacOSX/HARD.xcodeproj`
 4. Build the project
 
-The built AU plugin file is automatically copied to the AU plugin installation path when the build process is finished.
+The built AU plugin file is automatically copied to `/Users/[Your Username]/Library/Audio/Plug-Ins/Components/` when the build process is finished. If your DAW cannot find HARD, move the plugin to the other installation path.
