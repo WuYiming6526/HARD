@@ -45,3 +45,10 @@ git clone --recursive https://github.com/WuYiming6526/HARD.git
 4. Build the project
 
 The built AU plugin file is automatically copied to `/Users/[Your Username]/Library/Audio/Plug-Ins/Components/` when the build process is finished. If your DAW cannot find HARD, move the plugin to the other installation path.
+
+
+## How it works
+
+![HARD-VAE](HARD-VAE.PNG)
+
+I trained a VAE that encodes an audio spectrogram into disentangled latent features representing the harmonic (=pitch-related) and rhythmic (=pitch-invariant) content of the input audio. The decoder then generates an audio spectrogram from the latent features. By interpolating the latent features using the horizontal sliders, you can separately change the harmonic and rhythmic content of the generated audio.
