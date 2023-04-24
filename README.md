@@ -10,7 +10,7 @@ This repository is a submission to the Neural Audio Plugin Competition (https://
 ---------
 
 ## How to install
-1. Download `HARD-AUplugin.zip` from the releases.
+1. Download `HARD-AUplugin.zip` from [here](https://github.com/WuYiming6526/HARD/releases).
 2. Unzip the zip file and copy `HARD.component` to your AU plugin installation path. Typically the installation path is `/Users/[Your Username]/Library/Audio/Plug-Ins/Components/` or `/Library/Audio/Plug-Ins/Components/`.
 
 --------
